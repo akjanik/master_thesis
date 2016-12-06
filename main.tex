@@ -1,0 +1,57 @@
+\documentclass[12pt,twoside]{report}
+
+\let\oldref\ref
+\renewcommand{\ref}[1]{(\oldref{#1})}
+
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{lipsum}  
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+
+\title{
+	{Differential Equations in Biology}\\
+	{\large Politechnika Wrocławska}\\
+	{\includegraphics{pwr_logo.jpg}}
+}
+\author{Adam Krzysztof Janik}
+\date{Day Month Year}
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Abstract}
+Abstract goes here
+
+
+\chapter*{Declaration}
+I declare that this is my own work etc.
+
+
+\tableofcontents
+
+%\chapter{Introduction}
+\input{chapters/introduction}
+
+%\chapter{Chapter Two Title}
+\input{chapters/chapter02}
+
+%\chapter{Chapter Three Title}
+\input{chapters/chapter03}
+
+%\chapter{Chapter Four Title}
+\input{chapters/chapter04}
+
+%\chapter{Conclusion}
+\input{chapters/conclusion}
+
+\appendix
+\chapter{Appendix Title}
+\input{chapters/appendix}
+
+\end{document}

@@ -1,0 +1,16 @@
+\contentsline {chapter}{\numberline {1}Introduction}{5}
+\contentsline {section}{\numberline {1.1}Exponential Growth}{5}
+\contentsline {subsection}{\numberline {1.1.1}A Subsection}{5}
+\contentsline {section}{\numberline {1.2}Another Section}{6}
+\contentsline {chapter}{\numberline {2}Logistic Model}{7}
+\contentsline {section}{\numberline {2.1}Malthus Model}{7}
+\contentsline {section}{\numberline {2.2}Verhulst Model}{7}
+\contentsline {subsection}{\numberline {2.2.1}Critical Threshold}{8}
+\contentsline {subsection}{\numberline {2.2.2}Combining logistic model with a threshold}{9}
+\contentsline {section}{\numberline {2.3}Bifurcation points}{10}
+\contentsline {subsection}{\numberline {2.3.1}Bifurcation diagrams}{13}
+\contentsline {chapter}{\numberline {3}Chapter 3}{16}
+\contentsline {chapter}{\numberline {4}Chapter 4}{17}
+\contentsline {chapter}{\numberline {5}Conclusion}{18}
+\contentsline {chapter}{\numberline {A}Appendix Title}{19}
+\contentsline {chapter}{\numberline {B}appendix}{20}
